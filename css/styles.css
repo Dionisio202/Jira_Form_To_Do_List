@@ -1,0 +1,83 @@
+body{
+    color: white;
+    background-image: linear-gradient(100deg, #575656, #062e3f);
+}
+header{
+    position: relative; /* Es para que se adapte a la pantalla*/
+    margin: auto;
+    text-align: center;
+    padding: 5px; /* Es el marco para que no se pege los elemtos */
+    background: white;
+    color: #062e3f;
+
+}
+nav{
+    position: relative;
+    margin: auto;
+    width: 100;
+    height: auto;
+    background: black;
+}
+img{
+    position: relative;
+    width: 15%;
+    height: 15%;
+}
+
+ul{
+    position: relative;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    text-align: none;
+}
+li{
+    display: inline-block; /* esti me da el menu */
+    margin: auto;
+    width:22% ;
+    line-height: 50px;
+    list-style: none;
+ 
+}
+article{
+    padding: 5px;
+    position: relative;
+}
+aside{
+    padding: 5px;
+    position: relative;
+}
+footer{
+   background: #062e3f;
+    color: white;
+    text-align: center;
+}
+a{
+    color: wheat;
+}
+.parrafos{
+    color: blanchedalmond;
+    text-align: center;
+}
+
+#btnsumar{
+    
+    color: blanchedalmond;
+    background: rgb(34, 31, 31);
+    border: 1px solid white;
+   
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+input{
+    margin: 10px;
+}
+.aside-image {
+    width: 80%;
+    height: 80%;
+}
