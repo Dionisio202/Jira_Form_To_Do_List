@@ -1,67 +1,93 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+    <!--Bootstrap-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <!--Formulario Jira-->
 
-    <script type="text/javascript" src="https://todolistgrupo3.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-ia3qmx/b/4/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=af6cc922"></script>
+    <script type="text/javascript"
+        src="https://todolistgrupo3.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-ia3qmx/b/4/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=af6cc922"></script>
+
+
     <title>Formulario de cambio</title>
 
-    
+
 </head>
+
 <body>
 
-    <header>
-        <img src="img/quees.png"></img>
-    
-     </header>
-     <nav>
-        <ul>
-            <li>
-                <a href="">
-                    Trabajo
-                </a>
-                
-            </li>
-            <li>
-                <a href="">
-                    Nosotros
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    Servicios
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    Contactanos
-                </a>
-            </li>
-        </ul>
-     
-     </nav>   
-     <aside>
-        <img class="aside-image" src="img/to.png"></img>
-     </aside>
-       <section>
-        
-       </section>
-            
-      
-        <footer>
-            Derechos reservados Grupo 3
-        </footer>
-       
-    
-</body>
-</html>
 
+    <div class="titulo">
+        <h1 id="title">To Do List</h1>
+    </div>
+
+    <div class="container" style="margin-bottom: 10px;">
+
+        <div class="row">
+
+            
+            <div class="col-md-7" >
+                
+                <div class="cuerpo"> 
+
+                    <h2 id="form">Crea tu formulario de Cambios ! </h2>
+
+                </div>
+            </div>
+            
+            <div class="col-md-5" >
+
+                <div class="cuerpo">
+            
+                    <div class="flecha flechaMover"></div>
+            
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <h4 id="texto">Puedes realizar una peticion de cambios y se reflejara en nuestro entorno de trabajo !</h4>
+        </div>
+    </div>
+
+
+    <div class="container footer">
+
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+
+                <span class="text-muted">© 2023 Grupo 3, Inc</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
+            </ul>
+        </footer>
+
+    </div>
+</body>
+
+</html>
